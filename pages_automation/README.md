@@ -10,6 +10,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install seleniu
 pip install selenium
 ```
 
+
 ## File Structure
 ```
 .
