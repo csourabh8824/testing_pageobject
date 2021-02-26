@@ -5,7 +5,6 @@ from selenium.webdriver.common.keys import Keys
 from locators import Locator
 from initialize_driver import InitializeDriver
 
-
 class HomePage(InitializeDriver,Locator):
 
     def click_new_customer(self):
