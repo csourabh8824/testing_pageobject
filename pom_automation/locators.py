@@ -2,11 +2,11 @@ from selenium.webdriver.common.by import By
 
 class Locator:
 
-    #Locators for login page
+    #Locators for login 
     username = (By.NAME, "uid")
     password = (By.NAME, "password")
     login_web = (By.NAME, "btnLogin")
-    logout_web = (By.LINK_TEXT, "Log out")
+    logout_web = (By.LINK_TEXT, "Log out") 
 
     #Locators for home page
     new_customer = (By.LINK_TEXT , "New Customer")
